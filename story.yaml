@@ -1,0 +1,157 @@
+Title: Sea Adventures
+Begin: Beach
+
+Scenes:
+
+  Beach: 
+      Credit: >
+        Image provided by 10 Best- USA Today, "Paradise found: 10 best beaches in Cancun", https://www.10best.com/destinations/mexico/cancun/attractions/beaches/
+      Image: https://cdn.glitch.com/59e15463-7fec-4ecb-afed-a527a9e49d9d%2FGettyImages-913753556_54_990x660.jpg?v=1580274230076
+      Captions: 
+                - "It's a three day weekend and you decided to spend the day at the beach. The sand is nice
+                  and warm. The water is calm and serene, the waves gently crashing onto the surface. It's a very
+                  relaxing day, which calls for a relaxing activity. You wish to:"
+                  
+                - You take a field trip with your Oceans 80A class to the Natural Bridges tide pools as part of a class assignment. You eventually grow tired of scouting for
+                  various anemones and minute ocean critters and decide to sneak away to the beach. The water is very nice on this day and you spot many surfers 
+                  out in the water. The sand is nice and soft. The water is slightly choppy, but not quite at high tide. What is the plan?
+                  
+                - This summer season you decide to take a relaxing vacation to Cancun, Mexico. After you drop off your bags and settle into your hotel room, you 
+                  head straight for the beach. The water is calm and serene, the waves gently crashing onto the surface. The warm sun is beaming down your neck and you gently fall
+                  into a state of total relaxation, which calls for a relaxing activity. What should you want to do?
+                  
+                - You are stranded on a deserted island with only a suitcase full of your bare necessities. Although you should be quite alarmed at the situation,
+                  you find it quite enjoyable. Being beached on such a magnificent looking beach may not seem as bad you initially believed. You are quick to remove
+                  your clothes and slip into your swim wear. The water is welcoming, the waves gently crashing onto the surface. The sand is the whitest you have seen. 
+                  Now, you should decide on what you want to do. 
+                  
+      Choices:
+        - Text: Build a sand castle
+          Target: Sand Castle
+        - Text: Go for a swim
+          Target: Water
+  Sand Castle:
+      Credit: >
+        Image provided by redbook, "Build the Best Sand Castle with Tips from the Pros", https://www.google.com/search?rlz=1C1CHBF_enUS878US878&biw=1536&bih=754&tbm=isch&sa=1&ei=WScyXsqzB8rE-gThw4XwDw&q=sand+castle&oq=sand+castle&gs_l=img.3..0i67j0j0i67j0l7.93487.96785..96987...0.0..2.95.1328.18......0....1..gws-wiz-img.....0.hTaUknSWZYQ&ved=0ahUKEwiKxJ7HjKrnAhVKop4KHeFhAf4Q4dUDCAc&uact=5#imgrc=O3YhDyl8wMLyxM:
+      Image: https://cdn.glitch.com/59e15463-7fec-4ecb-afed-a527a9e49d9d%2Fsandcastle.jpg?v=1580276196095
+      Captions: 
+                - After spending a good enough while constructing your masterpiece, the sand castle is to 
+                  your liking. You decide to traverse down to the water and go for a refreshing swim.
+                  
+                - After struggling to build the sand castle, you decide to give up and go for a dip in the ocean.
+                
+                - "Building a sand castle is not how you want to spend your day. You decide you'd rather go for a swim."
+                
+                - You forgot to bring the equipment you need to build a sand castle. After admiring another sand castle someone
+                  has built, you decide that it is time for a swim. 
+      Choices: 
+        - Text: Dive into the ocean
+          Target: Water
+  Water:
+      Credit: >
+        Image provided by Unsplash, https://unsplash.com/s/photos/underwater
+      Image: https://cdn.glitch.com/59e15463-7fec-4ecb-afed-a527a9e49d9d%2Funderwater.jpg?v=1580276264588
+      Caption: >
+                The water feels nice and cool on the skin. You gaze around the infinite blue depths of the ocean,
+                unsure of which direction you wish to swim. 
+      Choices:
+        - Text: Swim to the right
+          Target: Swim Right
+        - Text: Swim to the left
+          Target: Swim Left
+        - Text: Swim straight
+          Target: Swim Straight
+  Swim Right:
+      Credit: >
+        Image provided by Deseret News., "Sharks that can walk exist, and scientists discovered 4 new species of them near Australia", 
+            #https://www.deseret.com/2020/1/24/21080604/sharks-that-can-walk-exist-and-scientists-discovered-4-new-species-of-them-near-australia
+      Image: https://cdn.glitch.com/59e15463-7fec-4ecb-afed-a527a9e49d9d%2Fshark.jpeg?v=1580276968930
+      Caption: >
+                After swimming farther than you wanted to, keeping to the right, you spotted a shark in 
+                the distance. The shark seems to be circling around a sunken ship wreck. The ship appears
+                to be very dated. It could be worth exploring. 
+      Choices:
+        - Text: Proceed to treasure
+          Target: Sunken Treasure
+        - Text: Swim back to shore
+          Target: Ending Four
+  Swim Left:
+           
+      Credit: >
+            Image provided by Thought Co., "Green Sea Turtle Facts", https://www.thoughtco.com/sea-turtles-profile-2291900
+      Image: https://cdn.glitch.com/59e15463-7fec-4ecb-afed-a527a9e49d9d%2Fturtle.jpg?v=1580277101480
+      Caption: >
+                Going in this direction, you swim up close to a green sea turtle. You've always admired them 
+                from the other side of glass panels at aquariums, but now you're right next to one in the ocean!
+                This is really exciting, so you decide to swim beside it wherever it may lead you. 
+      Choices: 
+        - Text: Follow turtle
+          Target: Reef
+  Swim Straight:
+      Credit: >
+        Image provided by Amazon.com, School of Dolphins Canvas Poster, https://www.amazon.com/School-Dolphins-Animal-Picture-24x36inch/dp/B075W5BGZ2
+      Image: https://cdn.glitch.com/59e15463-7fec-4ecb-afed-a527a9e49d9d%2Fdolphins.jpg?v=1580277334865
+      Caption: >
+                Deciding to swim in a straight pathway towards the depths of the ocean, you come across a school
+                of dolphins. Dolphins are very friendly and playful sea creatures. They are your favorite animal.
+                You've only seen them swimming beside boats on trips you've taken and their performances at SeaWorld. 
+                Swimming alongside a school is a once in a lifetime opportunity. 
+      Choices:
+        - Text: Swim with dolphins
+          Target: Ending Three
+  Reef:
+      Credit: >
+        Image provided by The Rainforest Site, https://therainforestsite.greatergood.com/clicktogive/trs/petition/hawksbill-sea-turtles
+      Image: https://cdn.glitch.com/59e15463-7fec-4ecb-afed-a527a9e49d9d%2Freef.jpeg?v=1580277106581
+      Caption: >
+                The turtle has led you to a coral reef filled with many varieties of beautiful tropical 
+                fishes. This would look good for your scrapbook. Good thing you equipped that underwater camera
+                before going in the water. 
+      Choices: 
+        - Text: Take a picture
+          Target: Ending Two
+  
+  Sunken Treasure:
+      Credit: >
+        Image provided by The Travel.com "25 Strange Underwater Images Of Sunken Ships", https://www.thetravel.com/strange-underwater-images-of-sunken-ships/
+      Image: https://cdn.glitch.com/59e15463-7fec-4ecb-afed-a527a9e49d9d%2Fsunken-ships-5.jpg?v=1580283857823
+      Caption: >
+                You were able to avoid the shark and swim up to the sunken ship. Guess that shark repellant came in handy. 
+                You swim around the ship and stumble upon a treasure chest, hidden beneath the barnacle covered
+                helm. 
+      Choices:
+        - Text: Collect treasure
+          Target: Ending One
+  Ending One:
+      Credit: >
+              Image provided by Matt Pomroy.com "How Much Sunken Treasure is There?: https://mattpomroy.com/2015/08/02/how-much-sunken-treasure-is-still-out-there/
+      Image: https://cdn.glitch.com/59e15463-7fec-4ecb-afed-a527a9e49d9d%2Fsunken-treasure.jpg?v=1580276981611
+      Caption: >
+                You successfully secured the treasure and brought it back to the shore. Upon opening it, you
+                discover golden chalices and jewels. Sometimes, risks are very rewarding. You carefully carry the
+                chest to your car and drive off with the treasure. What an eventful beach day!
+  Ending Two:
+      Credit: >
+        Image provided by Rainbow Reef Center 
+      Image: https://cdn.glitch.com/59e15463-7fec-4ecb-afed-a527a9e49d9d%2Fpolaroid-large-experience-reef-fish.png?v=1580284496308
+      Caption: >
+                That is a wonderful picture! It's going to look splendid in your scrapbook. You've had enough
+                adventure for one beach day. Time to get out of the water and head home. 
+  Ending Three: 
+      Credit: >
+        Image provided by Daily Mail artile: ""The real-life Flipper: Woman films incredible footage as she 'plays fetch' with DOLPHINS - claiming she's taught them how to flick a leaf to her underwater with their fins
+                #https://www.dailymail.co.uk/femail/article-3431545/Woman-films-incredible-footage-plays-fetch-DOLPHINS.html
+      Image: https://cdn.glitch.com/59e15463-7fec-4ecb-afed-a527a9e49d9d%2Fdolphinselfie.jpg?v=1580286400859
+      Caption: >
+                Swimming with the dolphins was truly an amazing experience, but it tired you out. You feel good
+                and are glad to be heading home on a high note. Best three day weekend ever!
+  Ending Four:
+      Credit: >
+        Image provided ChristBess Amazon.com: https://www.amazon.com/ChristBess-Warning-Swimming-Aluminum-Outdoor/dp/B07PQLLBYX
+      Image: https://cdn.glitch.com/59e15463-7fec-4ecb-afed-a527a9e49d9d%2Fdangersharks.jpg?v=1580329064895
+      Caption: >
+                Looks like seeing that shark was enough for you to call it a day. You
+                swam out of the water as fast as you could and quickly left the beach.    
+  Choices: [] 
+      
+      
